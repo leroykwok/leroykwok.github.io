@@ -3,7 +3,21 @@ layout: default
 title: Jason Zhang | Data Science, Engineering, and Software Development Portfolio
 ---
 
+<div class="sidebar">
+  <h3>Table of Contents</h3>
+  <ul>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#work-experience">Work Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#technical-skills">Technical Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div>
+
 # Jason Zhang | Data Science, Engineering, and Software Development Portfolio
+
+## <a id="about"></a>About Me
 
 ![Profile Picture](assets/images/profile.jpg)  <!-- Replace with your profile image -->
 
@@ -11,7 +25,7 @@ Hi, I'm Jason Zhang, an ambitious professional with a focus on Data Science, Eng
 
 ---
 
-## 📂 Featured Work Experience
+## <a id="work-experience"></a>📂 Featured Work Experience
 
 ### **Data Scientist**  
 **U.S. DOT Volpe Center** | Cambridge, MA | **July 2024 – Present**  
@@ -48,7 +62,7 @@ Hi, I'm Jason Zhang, an ambitious professional with a focus on Data Science, Eng
 
 ---
 
-## 📚 Education
+## <a id="education"></a>📚 Education
 
 ### **M.S. in Bioinformatics**  
 **Northeastern University, College of Science** | **September 2024 – May 2026** | **GPA: 4.0/4.0**  
@@ -60,7 +74,7 @@ Hi, I'm Jason Zhang, an ambitious professional with a focus on Data Science, Eng
 
 ---
 
-## 👩‍💻 Technical Skills
+## <a id="technical-skills"></a>👩‍💻 Technical Skills
 
 - **Languages**: Python, PyTorch, TensorFlow, Scikit-learn, Pandas, Flask, SQL, Java, R, Bash, TypeScript  
 - **Data Engineering**: Apache Airflow, Docker, Spark, AWS, GCP, MongoDB, Redis, Neo4j  
@@ -68,7 +82,7 @@ Hi, I'm Jason Zhang, an ambitious professional with a focus on Data Science, Eng
 
 ---
 
-## 📂 Projects
+## <a id="projects"></a>📂 Projects
 
 ### **1. AirflowIQ: Scalable Workflow Automation**  
 ![AirflowIQ Screenshot](assets/images/airflowiq_screenshot.jpg)  <!-- Replace with your project screenshot -->
@@ -94,7 +108,7 @@ Hi, I'm Jason Zhang, an ambitious professional with a focus on Data Science, Eng
 
 ---
 
-## 📬 Contact
+## <a id="contact"></a>📬 Contact
 
 - **Email**: [jasonjzhang17@gmail.com](mailto:jasonjzhang17@gmail.com)  
 - **GitHub**: [github.com/jjz17](https://github.com/jjz17)  
