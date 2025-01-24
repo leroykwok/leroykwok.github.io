@@ -7,24 +7,6 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-# Table of Contents Sidebar Configuration
-sidebar:
-  - text: "📑 Table of Contents"
-    url: "#"
-    children:
-      - text: "👨‍💻 About Me"
-        url: "#about"
-      - text: "💼 Work Experience"
-        url: "#work-experience"
-      - text: "🎓 Education"
-        url: "#education"
-      - text: "🛠️ Technical Skills"
-        url: "#technical-skills"
-      - text: "🚀 Projects"
-        url: "#projects"
-      - text: "📧 Contact"
-        url: "#contact"
-
 # Optional social links for the footer (customized with your actual URLs)
 social_links:
   - title: "GitHub"

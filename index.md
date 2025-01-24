@@ -3,8 +3,8 @@ layout: default
 title: Jason Zhang | Data Science, Engineering, and Software Development Portfolio
 ---
 
-<!-- <div class="sidebar">
-  <h3>Table of Contents</h3>
+<div class="sidebar">
+  <h3>📑 Table of Contents</h3>
   <ul>
     <li><a href="#about">About Me</a></li>
     <li><a href="#work-experience">Work Experience</a></li>
@@ -13,11 +13,11 @@ title: Jason Zhang | Data Science, Engineering, and Software Development Portfol
     <li><a href="#projects">Projects</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
-</div> -->
+</div>
 
 # Jason Zhang | Data Science, Engineering, and Software Development Portfolio
 
-## <a id="about"></a>About Me
+## <a id="about"></a>👨‍💻 About Me
 
 ![Profile Picture](assets/images/profile.jpg)  <!-- Replace with your profile image -->
 
@@ -25,7 +25,7 @@ Hi, I'm Jason Zhang, an ambitious professional with a focus on Data Science, Eng
 
 ---
 
-## <a id="work-experience"></a>📂 Featured Work Experience
+## <a id="work-experience"></a>💼 Featured Work Experience
 
 ### **Data Scientist**  
 **U.S. DOT Volpe Center** | Cambridge, MA | **July 2024 – Present**  
@@ -82,7 +82,7 @@ Hi, I'm Jason Zhang, an ambitious professional with a focus on Data Science, Eng
 
 ---
 
-## <a id="projects"></a>📂 Projects
+## <a id="projects"></a>🚀 Projects
 
 ### **1. AirflowIQ: Scalable Workflow Automation**  
 ![AirflowIQ Screenshot](assets/images/airflowiq_screenshot.jpg)  <!-- Replace with your project screenshot -->
