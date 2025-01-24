@@ -3,7 +3,7 @@ layout: default
 title: Jason Zhang | Data Science, Engineering, and Software Development Portfolio
 ---
 
-<div class="sidebar">
+<!-- <div class="sidebar">
   <h3>Table of Contents</h3>
   <ul>
     <li><a href="#about">About Me</a></li>
@@ -13,7 +13,7 @@ title: Jason Zhang | Data Science, Engineering, and Software Development Portfol
     <li><a href="#projects">Projects</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
-</div>
+</div> -->
 
 # Jason Zhang | Data Science, Engineering, and Software Development Portfolio
 
