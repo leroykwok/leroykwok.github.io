@@ -1,0 +1,38 @@
+@import "{{ site.theme }}";  /* This imports the default Minimal theme */
+
+/* Your custom styles start here */
+.sidebar {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky; /* Keeps the sidebar in place */
+  top: 20px; /* Distance from the top when scrolling */
+  width: 25%; /* Adjust the width as needed */
+  padding: 20px;
+  background-color: #f4f4f4; /* Light background */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+  height: calc(100vh - 40px); /* Full height minus padding */
+  overflow-y: auto; /* Allow scrolling if content overflows */
+}
+
+.sidebar h3 {
+  font-size: 1.5em; /* Make the title stand out */
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  color: #007BFF; /* Hover effect */
+}

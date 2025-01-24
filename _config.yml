@@ -6,6 +6,11 @@ plugins:
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
+sass:
+  style: compressed
+# Enable asset pipeline
+include:
+  - assets/css
 
 # Optional social links for the footer (customized with your actual URLs)
 social_links:
