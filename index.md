@@ -1,13 +1,54 @@
 ---
 layout: default
-title: Home
+title: Jason Zhang | Data Scientist Portfolio
 ---
-# Welcome to My Portfolio!
-Hi, I'm Jason Zhang, a Data Scientist passionate about leveraging data for impactful insights.
 
-## Projects
-- [Project 1: Predictive Modeling](https://github.com/yourusername/project1)
-- [Project 2: Data Visualization Dashboard](https://github.com/yourusername/project2)
+# Jason Zhang | Data Scientist Portfolio
 
-## About Me
-I specialize in Python, data pipeline development, and machine learning. Check out my work below!
+Welcome! I'm Jason Zhang, a data scientist passionate about solving impactful problems through machine learning, data engineering, and analytics. Below are my featured projects, skills, and ways to connect.
+
+---
+
+## 📂 Projects
+
+### **1. AirflowIQ: Scalable Workflow Automation**
+- **Description**: Automated ETL pipelines using Apache Airflow for real-time analytics.
+- **Skills**: Python, Airflow, SQL, Docker
+- **GitHub**: [View Project](https://github.com/jjz17/AirflowIQ)
+
+---
+
+### **2. Photo Quality Prediction**
+- **Description**: Built a CNN model to predict image quality using PyTorch and OpenCV.
+- **Skills**: Python, Deep Learning, PyTorch
+- **GitHub**: [View Project](https://github.com/jjz17/photo-quality-prediction)
+
+---
+
+### **3. Twitter Sentiment Dashboard**
+- **Description**: Created a Flask-based dashboard for real-time Twitter sentiment analysis.
+- **Skills**: Python, Flask, NLP
+- **GitHub**: [View Project](https://github.com/jjz17/twitter-dashboard)
+
+---
+
+## 👩‍💻 Skills
+
+- **Programming**: Python, Java, SQL, Flask, Streamlit  
+- **Machine Learning**: PyTorch, TensorFlow, Scikit-learn  
+- **Visualization**: Matplotlib, Plotly, Tableau  
+- **Tools**: Docker, Apache Airflow, Git, Linux
+
+---
+
+## 📬 Contact
+
+- **Email**: [jasonjzhang17@gmail.com](mailto:jasonjzhang17@gmail.com)  
+- **GitHub**: [github.com/jjz17](https://github.com/jjz17)  
+- **LinkedIn**: [linkedin.com/in/your-profile](https://linkedin.com/in/jjz17)
+
+---
+
+### 🔗 Live Website
+
+Visit my portfolio at: [https://jjz17.github.io](https://jjz17.github.io)
