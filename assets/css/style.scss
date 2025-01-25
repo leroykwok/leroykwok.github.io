@@ -1,50 +1,68 @@
 ---
 ---
-
 @import "{{ site.theme }}";  /* This imports the default Minimal theme */
 
-/* General Layout */
+/* Sticky Right-Aligned Table of Contents */
 .toc-container {
-    display: flex;
-    align-items: flex-start; /* Align TOC and content */
-    gap: 20px; /* Space between TOC and content */
+    position: -webkit-sticky; /* Sticky positioning for Safari */
+    position: sticky; /* Sticky positioning */
+    top: 20px; /* Distance from the top */
+    right: 0; /* Align to the right */
+    width: 250px; /* Fixed width */
+    padding: 20px;
+    background-color: #ffffff; /* Sleek white background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    border-radius: 12px; /* Rounded corners for modern design */
+    border: 1px solid #e5e5e5; /* Subtle border */
+    margin-right: 20px; /* Add spacing from the page content */
   }
   
-  /* Sticky Table of Contents */
   .toc {
-    position: -webkit-sticky; /* Safari support */
-    position: sticky;
-    top: 20px;
-    width: 200px;
-    background-color: #f9f9f9;
-    padding: 10px;
-    border: 1px solid #ddd;
-    z-index: 1000;
+    position: fixed; /* Keeps the TOC fixed as you scroll */
+    max-width: 250px; /* Prevent it from growing too large */
+    overflow-y: auto; /* Scrollable if content exceeds height */
+    height: calc(100vh - 40px); /* Adjust height minus padding */
+  }
+  
+  .toc h3 {
+    font-size: 1.2rem; /* Moderate size */
+    margin-bottom: 10px;
+    color: #333333; /* Darker text for better readability */
+    text-align: center; /* Center-align the heading */
   }
   
   .toc ul {
-    list-style-type: none;
-    padding: 0;
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* No extra padding */
   }
   
-  .toc ul li {
-    margin: 10px 0;
+  .toc li {
+    margin: 12px 0; /* Spacing between items */
   }
   
-  .toc ul li a {
-    text-decoration: none;
-    color: #333;
+  .toc a {
+    text-decoration: none; /* Remove underline */
+    color: #007BFF; /* Modern blue for links */
+    font-size: 0.95rem; /* Slightly smaller font size */
+    font-weight: 600; /* Bold for emphasis */
+    transition: all 0.2s ease; /* Smooth hover effect */
   }
   
-  .toc ul li a:hover {
-    color: #007bff;
+  .toc a:hover {
+    color: #0056b3; /* Slightly darker hover effect */
+    text-decoration: underline; /* Underline for hover */
   }
   
-  /* Main Content Styling */
-  .main-content {
-    flex: 1; /* Allow the content to take up the remaining space */
-    padding: 20px;
-    background: #ffffff;
-    border: 1px solid #ddd;
+  .toc::-webkit-scrollbar {
+    width: 6px; /* Thin scrollbar */
+  }
+  
+  .toc::-webkit-scrollbar-thumb {
+    background-color: #cccccc; /* Subtle scrollbar thumb */
+    border-radius: 5px; /* Rounded scrollbar */
+  }
+  
+  .toc::-webkit-scrollbar-thumb:hover {
+    background-color: #aaaaaa; /* Darker hover scrollbar */
   }
   
