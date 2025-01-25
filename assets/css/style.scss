@@ -4,33 +4,27 @@
 
 /* Sticky Right-Aligned Table of Contents */
 .toc-container {
-    position: -webkit-sticky; /* Sticky positioning for Safari */
-    position: sticky; /* Sticky positioning */
-    top: 20px; /* Distance from the top */
-    right: 0; /* Align to the right */
+    position: fixed; /* Keeps the TOC in a fixed position */
+    top: 20px; /* Distance from the top of the viewport */
+    right: 0; /* Align flush with the right side of the screen */
     width: 250px; /* Fixed width */
-    padding: 20px;
-    background-color: #ffffff; /* Sleek white background */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    border-radius: 12px; /* Rounded corners for modern design */
-    border: 1px solid #e5e5e5; /* Subtle border */
-    margin-right: 20px; /* Add spacing from the page content */
+    padding: 20px; /* Internal spacing for aesthetics */
+    background-color: #ffffff; /* Clean white background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 12px 0 0 12px; /* Rounded corners on the left side */
+    border-left: 1px solid #e5e5e5; /* Add a border for separation */
+    z-index: 1000; /* Ensure it stays above other content */
   }
   
-  .toc {
-    position: fixed; /* Keeps the TOC fixed as you scroll */
-    max-width: 250px; /* Prevent it from growing too large */
-    overflow-y: auto; /* Scrollable if content exceeds height */
-    height: calc(100vh - 40px); /* Adjust height minus padding */
-  }
-  
+  /* Optional TOC Heading */
   .toc h3 {
-    font-size: 1.2rem; /* Moderate size */
+    font-size: 1.2rem; /* Medium heading size */
     margin-bottom: 10px;
-    color: #333333; /* Darker text for better readability */
-    text-align: center; /* Center-align the heading */
+    color: #333333; /* Darker text for readability */
+    text-align: center;
   }
   
+  /* TOC List Styling */
   .toc ul {
     list-style: none; /* Remove bullet points */
     padding: 0; /* No extra padding */
@@ -43,16 +37,17 @@
   .toc a {
     text-decoration: none; /* Remove underline */
     color: #007BFF; /* Modern blue for links */
-    font-size: 0.95rem; /* Slightly smaller font size */
-    font-weight: 600; /* Bold for emphasis */
-    transition: all 0.2s ease; /* Smooth hover effect */
+    font-size: 0.95rem; /* Smaller, clean font size */
+    font-weight: 600; /* Slightly bold */
+    transition: all 0.2s ease; /* Smooth hover effects */
   }
   
   .toc a:hover {
-    color: #0056b3; /* Slightly darker hover effect */
-    text-decoration: underline; /* Underline for hover */
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline; /* Underline on hover */
   }
   
+  /* Scrollbar Styling for TOC */
   .toc::-webkit-scrollbar {
     width: 6px; /* Thin scrollbar */
   }
