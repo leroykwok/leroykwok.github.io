@@ -5,7 +5,7 @@
 /* Sticky Right-Aligned Table of Contents */
 .toc-container {
     position: fixed; /* Keeps the TOC in a fixed position */
-    top: 20px; /* Distance from the top of the viewport */
+    top: 59px; /* Distance from the top of the viewport, accounts for 39px size of toggle button */
     right: 0; /* Align flush with the right side of the screen */
     width: 250px; /* Fixed width */
     padding: 20px; /* Internal spacing for aesthetics */
@@ -25,7 +25,7 @@
 .toc-toggle-btn {
     position: fixed;
     top: 20px; /* Match TOC top */
-    right: 250px; /* Align the button flush with the TOC */
+    right: 0px; /* Align the button flush with the TOC */
     padding: 10px 15px;
     background-color: #007BFF; /* Matching modern blue */
     color: #ffffff;
