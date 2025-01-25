@@ -52,5 +52,18 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const toc = document.getElementById("toc");
+            const toggleButton = document.getElementById("toc-toggle");
+    
+            toggleButton.addEventListener("click", () => {
+                toc.classList.toggle("hidden");
+                toggleButton.textContent = toc.classList.contains("hidden")
+                    ? "📑 Show TOC"
+                    : "📑 Hide TOC";
+            });
+        });
+    </script>
   </body>
 </html>

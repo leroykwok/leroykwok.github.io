@@ -14,59 +14,86 @@
     border-radius: 12px 0 0 12px; /* Rounded corners on the left side */
     border-left: 1px solid #e5e5e5; /* Add a border for separation */
     z-index: 1000; /* Ensure it stays above other content */
-  }
+    transition: transform 0.3s ease-in-out; /* Smooth toggle effect */
+}
 
-  /* Hide TOC on Mobile */
-    @media (max-width: 768px) {
-    .toc-container {
-      display: none;
+.toc-container.hidden {
+    transform: translateX(100%); /* Hide TOC by moving it off-screen */
+}
+
+/* Toggle Button */
+.toc-toggle-btn {
+    position: fixed;
+    top: 20px;
+    right: 0; /* Align flush with the right */
+    padding: 10px 15px;
+    background-color: #007BFF; /* Matching modern blue */
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px 0 0 8px; /* Rounded corners on the left */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    cursor: pointer;
+    z-index: 1100; /* Higher than the TOC */
+    transition: background-color 0.2s ease;
+}
+
+.toc-toggle-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Hide TOC and Toggle Button on Mobile */
+@media (max-width: 768px) {
+    .toc-container,
+    .toc-toggle-btn {
+        display: none;
     }
-  }
-  
-  /* Optional TOC Heading */
-  .toc h3 {
-    font-size: 1.2rem; /* Medium heading size */
+}
+
+/* Optional TOC Heading */
+.toc h3 {
+    font-size: 1.2rem;
     margin-bottom: 10px;
-    color: #333333; /* Darker text for readability */
+    color: #333333;
     text-align: center;
-  }
-  
+}
+
 /* Centering the Text in TOC */
 .toc ul {
-    list-style: none; /* Remove bullet points */
-    padding: 0; /* No extra padding */
-    text-align: center; /* Center the text */
-  }
-  
-  .toc li {
-    margin: 12px 0; /* Spacing between items */
-  }
-  
-  .toc a {
-    text-decoration: none; /* Remove underline */
-    color: #007BFF; /* Modern blue for links */
-    font-size: 0.95rem; /* Smaller, clean font size */
-    font-weight: 600; /* Slightly bold */
-    transition: all 0.2s ease; /* Smooth hover effects */
-    display: inline-block; /* Allows centering */
-  }
-  
-  .toc a:hover {
-    color: #0056b3; /* Darker blue on hover */
-    text-decoration: underline; /* Underline on hover */
-  }
-  
-  /* Scrollbar Styling for TOC */
-  .toc::-webkit-scrollbar {
-    width: 6px; /* Thin scrollbar */
-  }
-  
-  .toc::-webkit-scrollbar-thumb {
-    background-color: #cccccc; /* Subtle scrollbar thumb */
-    border-radius: 5px; /* Rounded scrollbar */
-  }
-  
-  .toc::-webkit-scrollbar-thumb:hover {
-    background-color: #aaaaaa; /* Darker hover scrollbar */
-  }
-  
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.toc li {
+    margin: 12px 0;
+}
+
+.toc a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    display: inline-block;
+}
+
+.toc a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Scrollbar Styling for TOC */
+.toc::-webkit-scrollbar {
+    width: 6px;
+}
+
+.toc::-webkit-scrollbar-thumb {
+    background-color: #cccccc;
+    border-radius: 5px;
+}
+
+.toc::-webkit-scrollbar-thumb:hover {
+    background-color: #aaaaaa;
+}

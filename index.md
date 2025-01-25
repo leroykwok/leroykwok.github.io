@@ -3,17 +3,21 @@ layout: default
 title: Jason Zhang | Data Science, Engineering, and Software Development Portfolio
 ---
 
-<div class="toc-container">
+<!-- Toggle Button -->
+<button id="toc-toggle" class="toc-toggle-btn">📑 Show TOC</button>
+
+<!-- TOC Container -->
+<div class="toc-container hidden" id="toc">
     <div class="toc">
-    <h3>📑 Table of Contents</h3>
-    <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#work-experience">Work Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#technical-skills">Technical Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
+        <h3>📑 Table of Contents</h3>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#work-experience">Work Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#technical-skills">Technical Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </div>
 </div>
 
