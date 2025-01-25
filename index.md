@@ -53,7 +53,8 @@ Hi, I'm Jason Zhang, an ambitious professional with a focus on Data Science, Eng
 ---
 
 ### **Data Engineering Researcher**  
-**Northeastern University Khoury College** | Boston, MA | **December 2022 – May 2023**  
+**Northeastern University Khoury College** | Boston, MA | **December 2022 – May 2023**
+![NU Logo](assets/images/nu.jpg)
 - Re-architected databases with **Redis distributed clusters**, improving computation framework speed by **20%**.  
 - Leveraged **Redis Cloud** for 99.99% uptime, ensuring scalability and durability.  
 - Refactored codebase with **OOP principles** and implemented automated testing for maintainability.
@@ -72,11 +73,13 @@ Hi, I'm Jason Zhang, an ambitious professional with a focus on Data Science, Eng
 ## <a id="education"></a>📚 Education
 
 ### **M.S. in Bioinformatics**  
-**Northeastern University, College of Science** | **September 2024 – May 2026** | **GPA: 4.0/4.0**  
+**Northeastern University, College of Science** | **September 2024 – May 2026** | **GPA: 4.0/4.0**
+![NU Logo](assets/images/small_nu.png)
 - **Coursework**: Bioinformatics Programming, Computational Methods in Bioinformatics, Algorithms, Statistics for Bioinformatics  
 
 ### **B.S. in Data Science and Mathematics**  
 **Northeastern University, Khoury College of Computer Sciences** | **September 2020 – May 2024** | **GPA: 4.0/4.0**  
+![NU Logo](assets/images/small_nu.png)
 - **Coursework**: Machine Learning, Large-Scale Data Storage, Data Science Foundations, Object-Oriented Design, Stochastic Probability, Linear Algebra  
 
 ---
