@@ -24,8 +24,8 @@
 /* Toggle Button */
 .toc-toggle-btn {
     position: fixed;
-    top: 20px;
-    right: 0; /* Align flush with the right */
+    top: 20px; /* Match TOC top */
+    right: 250px; /* Align the button flush with the TOC */
     padding: 10px 15px;
     background-color: #007BFF; /* Matching modern blue */
     color: #ffffff;
