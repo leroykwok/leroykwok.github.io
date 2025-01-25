@@ -35,7 +35,7 @@ Hi, I'm Jason Zhang, an ambitious professional with a focus on Data Science, Eng
 
 ### **Data Scientist**  
 **U.S. DOT Volpe Center** | Cambridge, MA | **July 2024 – Present**  
-![U.S. DOT Logo](assets/images/usdot_logo.jpg)  <!-- Replace with U.S. DOT logo -->
+![U.S. DOT Logo](assets/images/usdot.jpg)  <!-- Replace with U.S. DOT logo -->
 - Engineered **ETL pipelines** using Apache Airflow and AWS Glue for processing **20,000+ records annually**, reducing data processing time by **60%**.  
 - Prototyped **LLM Retrieval-Augmented Generation (RAG) models** with Hugging Face Transformers, enhancing documentation retrieval efficiency by **30%**, saving **200+ hours annually**.  
 - Authored comprehensive memos on **NIST AI RMF**, promoting **AI risk management adoption** across teams.
@@ -44,7 +44,7 @@ Hi, I'm Jason Zhang, an ambitious professional with a focus on Data Science, Eng
 
 ### **Software Engineer Co-op**  
 **Wolters Kluwer** | Waltham, MA | **July 2023 – January 2024**  
-![Wolters Kluwer Logo](assets/images/wolters_logo.jpg)  <!-- Replace with Wolters Kluwer logo -->
+![Wolters Kluwer Logo](assets/images/wolters.jpg)  <!-- Replace with Wolters Kluwer logo -->
 - Developed a **Spring Boot microservice** leveraging Google Cloud Translation API to process **100,000+ medical documents daily**.  
 - Re-implemented backend image retrieval using **Elasticsearch, S3, and JAX-RS**, reducing load times by **20%**.  
 - Enhanced **user data schema** for improved password security and deployed updates to production.  
@@ -62,6 +62,7 @@ Hi, I'm Jason Zhang, an ambitious professional with a focus on Data Science, Eng
 
 ### **Data Science Co-op**  
 **MORSE Corp** | Cambridge, MA | **July 2022 – January 2023**  
+![MORSE Corp Logo](assets/images/morse.jpg)
 - Implemented a **time series bootstrap method** in NumPy to estimate statistical uncertainty in temporal data.  
 - Optimized dataset splits, reducing preprocessing time by **30%**, and created a reusable **EDA and synthetic data library** used by 8 engineers.  
 - Maintained **ETL pipelines** with PySpark, reducing data lag by **15%** and automating documentation via Dockerized CI/CD pipelines.
