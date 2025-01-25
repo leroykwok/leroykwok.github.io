@@ -24,10 +24,11 @@
     text-align: center;
   }
   
-  /* TOC List Styling */
-  .toc ul {
+/* Centering the Text in TOC */
+.toc ul {
     list-style: none; /* Remove bullet points */
     padding: 0; /* No extra padding */
+    text-align: center; /* Center the text */
   }
   
   .toc li {
@@ -40,6 +41,7 @@
     font-size: 0.95rem; /* Smaller, clean font size */
     font-weight: 600; /* Slightly bold */
     transition: all 0.2s ease; /* Smooth hover effects */
+    display: inline-block; /* Allows centering */
   }
   
   .toc a:hover {
