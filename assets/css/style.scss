@@ -4,14 +4,14 @@
 @import "{{ site.theme }}";  /* This imports the default Minimal theme */
 
 /* General Layout */
-.content-container {
+.toc-container {
     display: flex;
     align-items: flex-start; /* Align TOC and content */
     gap: 20px; /* Space between TOC and content */
   }
   
-  /* Sticky Table of Contents (Sidebar) */
-  .sidebar {
+  /* Sticky Table of Contents */
+  .toc {
     position: -webkit-sticky; /* Safari support */
     position: sticky;
     top: 20px;
@@ -22,21 +22,21 @@
     z-index: 1000;
   }
   
-  .sidebar ul {
+  .toc ul {
     list-style-type: none;
     padding: 0;
   }
   
-  .sidebar ul li {
+  .toc ul li {
     margin: 10px 0;
   }
   
-  .sidebar ul li a {
+  .toc ul li a {
     text-decoration: none;
     color: #333;
   }
   
-  .sidebar ul li a:hover {
+  .toc ul li a:hover {
     color: #007bff;
   }
   
