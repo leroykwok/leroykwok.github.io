@@ -1,0 +1,17 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+# GitHub Pages gem to simplify dependencies
+gem "github-pages", group: :jekyll_plugins
+
+# Uncomment to use Jekyll locally (optional, but helpful for local development)
+# gem "jekyll", "~> 4.2.0"
+
+# Uncomment the following if you want to use Sass locally
+# gem "jekyll-sass-converter"
+
+# Add any additional plugins or dependencies below as needed
+# gem "jekyll-feed"  # If you're using RSS feeds
+# gem "jekyll-seo-tag" # For SEO tag support
+
