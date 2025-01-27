@@ -3,6 +3,10 @@ layout: default
 title: Jason Zhang | Data Science, Engineering, and Software Development Portfolio
 ---
 
+<div class="cta-container">
+  <a href="mailto:jasonjzhang17@gmail.com" class="cta-button">Hire Me</a>
+</div>
+
 <!-- Toggle Button -->
 <button id="toc-toggle" class="toc-toggle-btn">📑 Show TOC</button>
 
