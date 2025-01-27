@@ -4,74 +4,92 @@
 
 .toc-container {
     position: fixed;
-    top: 70px; /* Ensure it's below the toggle button */
+    top: 70px; /* Below the button */
     right: 20px;
-    max-height: 80vh; /* Limit height to avoid overflowing the screen */
-    overflow-y: auto; /* Add scrolling if the TOC is too long */
-    width: 250px; /* Fixed width for consistency */
-    padding: 10px;
+    max-height: 80vh;
+    overflow-y: auto;
+    width: 250px; /* Modern fixed width */
+    padding: 15px;
     background-color: #ffffff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    border-radius: 10px; /* Rounded corners */
+    border: 1px solid #e0e0e0; /* Subtle border for structure */
     z-index: 1000;
-    transition: all 0.3s ease-in-out;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth show/hide */
+    font-family: 'Inter', sans-serif; /* Modern font */
 }
 
-.toc-container.hidden {
-    display: none;
-}
-
-.toc h3 {
-    display: none; /* Hide large heading to reduce space */
-}
-
-.toc ul {
+/* TOC Links */
+.toc-container ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.toc li {
-    margin: 5px 0; /* Add spacing between items */
+.toc-container li {
+    margin: 8px 0; /* Space between links */
 }
 
-.toc a {
+.toc-container a {
     display: block;
-    padding: 5px 10px;
+    padding: 8px 12px;
     text-decoration: none;
-    color: #007BFF;
-    font-size: 0.9rem;
-    font-weight: 600;
-    border-radius: 5px;
+    color: #333;
+    font-size: 0.9rem; /* Modern, compact size */
+    font-weight: 500;
+    border-radius: 6px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.toc a:hover {
+.toc-container a:hover {
     background-color: #f2f2f2;
-    color: #0056b3;
+    color: #007BFF;
+}
+
+/* Hide TOC by default */
+.toc-container.hidden {
+    transform: translateX(300px); /* Slide out of view */
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Show TOC */
+.toc-container.visible {
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .toc-toggle-btn {
     position: fixed;
-    top: 20px; /* Keep it at the top */
-    right: 20px; /* Align with the TOC */
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    top: 20px;
+    right: 20px;
+    width: 40px; /* Smaller width */
+    height: 40px; /* Smaller height */
+    border-radius: 50%; /* Circular button */
     background-color: #007BFF;
-    color: #ffffff;
-    font-size: 1.5rem;
+    color: white;
+    font-size: 1.2rem;
     text-align: center;
-    line-height: 50px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 1100; /* Ensure it sits above everything else */
+    line-height: 40px; /* Perfectly centers text/icon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1100;
     cursor: pointer;
-    transition: transform 0.2s ease, background-color 0.3s ease;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
+/* Hover and Active States */
 .toc-toggle-btn:hover {
-    transform: scale(1.1);
     background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.toc-toggle-btn:active {
+    background-color: #004494;
+    transform: scale(0.95);
 }
 
 /* Hide TOC and Toggle Button on Mobile */
@@ -80,53 +98,6 @@
     .toc-toggle-btn {
         display: none;
     }
-}
-
-/* Optional TOC Heading */
-.toc h3 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    color: #333333;
-    text-align: center;
-}
-
-/* Centering the Text in TOC */
-.toc ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-}
-
-.toc li {
-    margin: 12px 0;
-}
-
-.toc a {
-    text-decoration: none;
-    color: #007BFF;
-    font-size: 0.95rem;
-    font-weight: 600;
-    transition: all 0.2s ease;
-    display: inline-block;
-}
-
-.toc a:hover {
-    color: #0056b3;
-    text-decoration: underline;
-}
-
-/* Scrollbar Styling for TOC */
-.toc::-webkit-scrollbar {
-    width: 6px;
-}
-
-.toc::-webkit-scrollbar-thumb {
-    background-color: #cccccc;
-    border-radius: 5px;
-}
-
-.toc::-webkit-scrollbar-thumb:hover {
-    background-color: #aaaaaa;
 }
 
 .cta-container {
