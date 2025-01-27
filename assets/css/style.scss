@@ -121,3 +121,25 @@
     background-color: #218838;
   }
   
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between icons */
+    margin-top: 20px;
+  }
+  
+  .contact-links a {
+    color: #333;
+    font-size: 1.5rem; /* Icon size */
+    transition: color 0.3s ease;
+  }
+  
+  .contact-links a:hover {
+    color: #007BFF; /* Hover color */
+  }
+  
+  .contact-links i {
+    display: block;
+    text-align: center;
+  }

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Jason Zhang | Data Science, Engineering, and Software Development Portfolio
+title: Jason Zhang | Data Science and Software Development Portfolio
 ---
 
 <!-- Toggle Button -->
