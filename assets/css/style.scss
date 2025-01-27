@@ -4,9 +4,11 @@
 
 .toc-container {
     position: fixed;
-    top: 20px;
+    top: 70px; /* Ensure it's below the toggle button */
     right: 20px;
-    width: auto;
+    max-height: 80vh; /* Limit height to avoid overflowing the screen */
+    overflow-y: auto; /* Add scrolling if the TOC is too long */
+    width: 250px; /* Fixed width for consistency */
     padding: 10px;
     background-color: #ffffff;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
@@ -27,8 +29,10 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Horizontal list */
-    flex-direction: column; /* Switch to vertical layout on hover */
+}
+
+.toc li {
+    margin: 5px 0; /* Add spacing between items */
 }
 
 .toc a {
@@ -38,29 +42,31 @@
     color: #007BFF;
     font-size: 0.9rem;
     font-weight: 600;
-    transition: all 0.2s ease;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .toc a:hover {
-    color: #0056b3;
     background-color: #f2f2f2;
-    border-radius: 5px;
+    color: #0056b3;
 }
 
 .toc-toggle-btn {
     position: fixed;
-    top: 20px;
-    right: 20px;
-    padding: 10px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
+    top: 20px; /* Keep it at the top */
+    right: 20px; /* Align with the TOC */
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    font-size: 16px;
+    background-color: #007BFF;
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1100; /* Ensure it sits above everything else */
     cursor: pointer;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    z-index: 1100;
-    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
 .toc-toggle-btn:hover {
@@ -69,7 +75,7 @@
 }
 
 /* Hide TOC and Toggle Button on Mobile */
-@media (max-width: 768px) {
+@media (max-width: 960px) {
     .toc-container,
     .toc-toggle-btn {
         display: none;
