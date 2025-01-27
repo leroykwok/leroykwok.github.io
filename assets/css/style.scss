@@ -2,47 +2,70 @@
 ---
 @import "{{ site.theme }}";  /* This imports the default Minimal theme */
 
-/* Sticky Right-Aligned Table of Contents */
 .toc-container {
-    position: fixed; /* Keeps the TOC in a fixed position */
-    top: 59px; /* Distance from the top of the viewport, accounts for 39px size of toggle button */
-    right: 0; /* Align flush with the right side of the screen */
-    width: 200px; /* Fixed width */
-    padding: 20px; /* Internal spacing for aesthetics */
-    background-color: #ffffff; /* Clean white background */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    border-radius: 12px 0 0 12px; /* Rounded corners on the left side */
-    border-left: 1px solid #e5e5e5; /* Add a border for separation */
-    z-index: 1000; /* Ensure it stays above other content */
-    transition: transform 0.3s ease-in-out; /* Smooth toggle effect */
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: auto;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
 }
 
 .toc-container.hidden {
-    transform: translateX(100%); /* Hide TOC by moving it off-screen */
+    display: none;
 }
 
-/* Toggle Button */
+.toc h3 {
+    display: none; /* Hide large heading to reduce space */
+}
+
+.toc ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Horizontal list */
+    flex-direction: column; /* Switch to vertical layout on hover */
+}
+
+.toc a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.toc a:hover {
+    color: #0056b3;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
 .toc-toggle-btn {
     position: fixed;
-    // top: 20px; /* Match TOC top */
-    top: 50%;
-    transform: translateY(-50%);
-    right: 0px; /* Align the button flush with the TOC */
-    padding: 10px 15px;
-    background-color: #007BFF; /* Matching modern blue */
-    color: #ffffff;
-    font-size: 0.9rem;
-    font-weight: bold;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
     border: none;
-    border-radius: 8px 0 0 8px; /* Rounded corners on the left */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 50%;
+    font-size: 16px;
     cursor: pointer;
-    z-index: 1100; /* Higher than the TOC */
-    transition: background-color 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1100;
+    transition: transform 0.2s ease;
 }
 
 .toc-toggle-btn:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.1);
+    background-color: #0056b3;
 }
 
 /* Hide TOC and Toggle Button on Mobile */

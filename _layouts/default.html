@@ -41,6 +41,9 @@
         </ul>
         {% endif %}
 
+        <div class="cta-container">
+            <a href="mailto:jasonjzhang17@gmail.com" class="cta-button">Hire Me</a>
+        </div>
         <img src="assets/images/usdot.jpg" alt="Logo" />
 
       </header>
@@ -62,12 +65,9 @@
         document.addEventListener("DOMContentLoaded", () => {
             const toc = document.getElementById("toc");
             const toggleButton = document.getElementById("toc-toggle");
-    
+
             toggleButton.addEventListener("click", () => {
                 toc.classList.toggle("hidden");
-                toggleButton.textContent = toc.classList.contains("hidden")
-                    ? "📑 Show TOC"
-                    : "📑 Hide TOC";
             });
         });
     </script>
