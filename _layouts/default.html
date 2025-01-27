@@ -33,8 +33,10 @@
         <div class="cta-container">
             <a href="mailto:jasonjzhang17@gmail.com" class="cta-button">Hire Me</a>
         </div>
-        
+
         <img src="assets/images/profile.jpg" alt="Logo" />
+
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark Mode">🌙</button>
 
       </header>
       <section>
@@ -80,6 +82,16 @@
             tocContainer.classList.toggle('hidden');
             tocContainer.classList.toggle('visible');
         });
+
+        const themeToggle = document.getElementById('theme-toggle');
+        themeToggle.addEventListener('click', () => {
+            document.documentElement.classList.toggle('dark');
+            localStorage.setItem('theme', document.documentElement.classList.contains('dark') ? 'dark' : 'light');
+        });
+        // Apply saved theme on load
+        if (localStorage.getItem('theme') === 'dark') {
+            document.documentElement.classList.add('dark');
+        }
     </script>
   </body>
 </html>

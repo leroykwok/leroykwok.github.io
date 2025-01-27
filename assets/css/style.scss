@@ -190,3 +190,82 @@ header {
     padding: 20px 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+/* Dark Mode */
+html.dark {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+html.dark a {
+    color: #90caf9;
+}
+
+html.dark .toc-container {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #333333;
+}
+
+html.dark .toc-container a {
+    color: #90caf9;
+}
+
+html.dark .toc-container a:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+html.dark .toc-toggle-btn {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+html.dark .toc-toggle-btn:hover {
+    background-color: #444444;
+}
+
+html.dark header {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+html.dark footer {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+html.dark .cta-button {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+html.dark .cta-button:hover {
+    background-color: #444444;
+}
+
+.theme-toggle-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #007BFF;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1100;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.theme-toggle-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
