@@ -19,8 +19,6 @@ title: Jason Zhang | Data Science, Engineering, and Software Development Portfol
     </ul>
 </div>
 
-# Jason Zhang | Data Science, Engineering, and Software Development Portfolio
-
 ## <a id="about"></a>👨‍💻 About Me
 
 ![Profile Picture](assets/images/profile.jpg)  <!-- Replace with your profile image -->
