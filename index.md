@@ -29,8 +29,8 @@ Hi, I'm Jason Zhang, an ambitious professional with a focus on Data Science, Eng
 
 ## <a id="work-experience"></a>💼 Featured Work Experience
 
-<div class="work-container">
- <div class="work-card" onclick="toggleCard(this)">
+<div class="card-container">
+ <div class="card" onclick="toggleCard(this)">
     <div class="card-front">
       <img src="assets/images/usdot.jpg" alt="Company Logo" class="company-logo">
       <h3>Data Scientist</h3>
@@ -47,7 +47,7 @@ Hi, I'm Jason Zhang, an ambitious professional with a focus on Data Science, Eng
     </div>
   </div>
   
-  <div class="work-card" onclick="toggleCard(this)">
+  <div class="card" onclick="toggleCard(this)">
     <div class="card-front">
       <img src="assets/images/wolters.jpg" alt="Company Logo" class="company-logo">
       <h3>SWE Co-op</h3>
@@ -65,7 +65,7 @@ Hi, I'm Jason Zhang, an ambitious professional with a focus on Data Science, Eng
     </div>
   </div>
 
-   <div class="work-card" onclick="toggleCard(this)">
+   <div class="card" onclick="toggleCard(this)">
     <div class="card-front">
       <img src="assets/images/nu.jpg" alt="Company Logo" class="company-logo">
       <h3>Data Engineer</h3>
@@ -82,7 +82,7 @@ Hi, I'm Jason Zhang, an ambitious professional with a focus on Data Science, Eng
     </div>
   </div>
   
-  <div class="work-card" onclick="toggleCard(this)">
+  <div class="card" onclick="toggleCard(this)">
     <div class="card-front">
       <img src="assets/images/morse.jpg" alt="Company Logo" class="company-logo">
       <h3>Data Science Co-op</h3>
@@ -100,15 +100,53 @@ Hi, I'm Jason Zhang, an ambitious professional with a focus on Data Science, Eng
   </div>
 </div>
 
- 
+&nbsp;
 
 ---
 
 ## <a id="education"></a>📚 Education
 
+<div class="card-container">
+ <div class="card" onclick="toggleCard(this)">
+    <div class="card-front">
+      <img src="assets/images/nu.jpg" alt="Company Logo" class="company-logo">
+      <h3>M.S. Bioinformatics</h3>
+      <p>NEU College of Science</p>
+      <p class="location">Boston, MA</p>
+      <p class="time">Sep 2024 - May 2026</p>
+    </div>
+    <div class="card-back">
+    <ul>
+        <li>- Engineered <strong>ETL pipelines</strong> using Apache Airflow and AWS Glue for processing <strong>20,000+ records annually</strong>, reducing data processing time by <strong>60%</strong>.</li>
+        <li>- Prototyped <strong>LLM Retrieval-Augmented Generation (RAG) models</strong> with Hugging Face Transformers, enhancing documentation retrieval efficiency by <strong>30%</strong>, saving <strong>200+ hours annually</strong>.</li>
+        <li>- Authored comprehensive memos on <strong>NIST AI RMF</strong>, promoting <strong>AI risk management adoption</strong> across teams.</li>
+    </ul>
+    </div>
+  </div>
+  
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-front">
+      <img src="assets/images/nu.jpg" alt="Company Logo" class="company-logo">
+      <h3>B.S. Data Science and Math</h3>
+      <p>NEU Khoury College</p>
+      <p class="location">Boston, MA</p>
+      <p class="time">Sep 2020 - May 2024</p>
+    </div>
+    <div class="card-back">
+        <ul>
+            <li>- Developed a <strong>Spring Boot microservice</strong> leveraging Google Cloud Translation API to process <strong>100,000+ medical documents daily</strong>.</li>
+            <li>- Re-implemented backend image retrieval using <strong>Elasticsearch, S3, and JAX-RS</strong>, reducing load times by <strong>20%</strong>.</li>
+            <li>- Enhanced <strong>user data schema</strong> for improved password security and deployed updates to production.</li>
+            <li>- Streamlined infrastructure by retiring a legacy microservice with <strong>Docker</strong> and <strong>Jenkins</strong>, decreasing global server load.</li>
+        </ul>
+    </div>
+  </div>
+</div>
+
 ### **M.S. in Bioinformatics**  
 **Northeastern University, College of Science** | **September 2024 – May 2026** | **GPA: 4.0/4.0**
-![NU Logo](assets/images/small_nu.png)
+<!-- ![NU Logo](assets/images/small_nu.png) -->
+<img src="assets/images/nu.jpg" alt="School Logo" class="school-logo">
 - **Coursework**: Bioinformatics Programming, Computational Methods in Bioinformatics, Algorithms, Statistics for Bioinformatics  
 
 ### **B.S. in Data Science and Mathematics**  
@@ -128,8 +166,8 @@ Hi, I'm Jason Zhang, an ambitious professional with a focus on Data Science, Eng
 
 ## <a id="projects"></a>🚀 Projects
 
-<div class="work-container">
- <div class="work-card" onclick="toggleCard(this)">
+<div class="card-container">
+ <div class="card" onclick="toggleCard(this)">
     <div class="card-front">
       <img src="assets/images/usdot.jpg" alt="Company Logo" class="company-logo">
       <h3>Data Scientist</h3>
@@ -146,7 +184,7 @@ Hi, I'm Jason Zhang, an ambitious professional with a focus on Data Science, Eng
     </div>
   </div>
   
-  <div class="work-card" onclick="toggleCard(this)">
+  <div class="card" onclick="toggleCard(this)">
     <div class="card-front">
       <img src="assets/images/wolters.jpg" alt="Company Logo" class="company-logo">
       <h3>SWE Co-op</h3>
