@@ -1,0 +1,387 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.toc-container {
+    position: fixed;
+    top: 70px; /* Below the button */
+    right: 20px;
+    max-height: 80vh;
+    overflow-y: auto;
+    width: 250px; /* Modern fixed width */
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    border-radius: 10px; /* Rounded corners */
+    border: 1px solid #e0e0e0; /* Subtle border for structure */
+    z-index: 1000;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth show/hide */
+    font-family: 'Inter', sans-serif; /* Modern font */
+}
+
+/* TOC Links */
+.toc-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.toc-container li {
+    margin: 8px 0; /* Space between links */
+}
+
+.toc-container a {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9rem; /* Modern, compact size */
+    font-weight: 500;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.toc-container a:hover {
+    background-color: #f2f2f2;
+    color: #007BFF;
+}
+
+/* Hide TOC by default */
+.toc-container.hidden {
+    transform: translateX(300px); /* Slide out of view */
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Show TOC */
+.toc-container.visible {
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.toc-toggle-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 40px; /* Smaller width */
+    height: 40px; /* Smaller height */
+    border-radius: 50%; /* Circular button */
+    background-color: #007BFF;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 40px; /* Perfectly centers text/icon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1100;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover and Active States */
+.toc-toggle-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+.toc-toggle-btn:active {
+    background-color: #004494;
+    transform: scale(0.95);
+}
+
+/* Hide TOC and Toggle Button on Mobile */
+@media (max-width: 960px) {
+    .toc-container,
+    .toc-toggle-btn {
+        display: none;
+    }
+}
+
+.cta-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .cta-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #218838;
+  }
+  
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+
+    .contact-container {
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+        color: #333;
+    }
+
+    p {
+        margin: 10px 0 20px;
+        color: #555;
+        font-size: 1rem;
+    }
+
+    .contact-links {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 15px;
+
+        a {
+        text-decoration: none;
+        text-align: center;
+        color: #555;
+        font-size: 1.5rem;
+        transition: all 0.3s ease;
+
+        &:hover {
+            color: #007BFF; /* Highlight color */
+            transform: scale(1.2); /* Slight zoom effect */
+        }
+
+        i {
+            display: block;
+            font-size: 2rem; /* Icon size */
+            margin-bottom: 5px;
+        }
+
+        span {
+            display: block;
+            font-size: 0.9rem; /* Label size */
+            color: #777;
+        }
+        }
+    }
+}
+
+header {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+// /* Dark Mode */
+// html.dark {
+//     background-color: #121212;
+//     color: #ffffff;
+// }
+
+// html.dark a {
+//     color: #90caf9;
+// }
+
+// html.dark .toc-container {
+//     background-color: #1e1e1e;
+//     color: #ffffff;
+//     border: 1px solid #333333;
+// }
+
+// html.dark .toc-container a {
+//     color: #90caf9;
+// }
+
+// html.dark .toc-container a:hover {
+//     background-color: #333333;
+//     color: #ffffff;
+// }
+
+// html.dark .toc-toggle-btn {
+//     background-color: #333333;
+//     color: #ffffff;
+// }
+
+// html.dark .toc-toggle-btn:hover {
+//     background-color: #444444;
+// }
+
+// html.dark header {
+//     background-color: #1e1e1e;
+//     color: #ffffff;
+// }
+
+// html.dark footer {
+//     background-color: #1e1e1e;
+//     color: #ffffff;
+// }
+
+// html.dark .cta-button {
+//     background-color: #333333;
+//     color: #ffffff;
+// }
+
+// html.dark .cta-button:hover {
+//     background-color: #444444;
+// }
+
+// .theme-toggle-btn {
+//     position: fixed;
+//     top: 20px;
+//     left: 20px;
+//     width: 40px;
+//     height: 40px;
+//     border-radius: 50%;
+//     background-color: #007BFF;
+//     color: white;
+//     font-size: 1.2rem;
+//     text-align: center;
+//     line-height: 40px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+//     z-index: 1100;
+//     cursor: pointer;
+//     transition: transform 0.3s ease, background-color 0.3s ease;
+// }
+
+// .theme-toggle-btn:hover {
+//     background-color: #0056b3;
+//     transform: scale(1.1);
+// }
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    width: 100%;
+    height: 250px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    perspective: 1000px;
+    transition: transform 0.3s;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover:not(.flipped) {
+    border: 2px solid #3498db;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+  }
+
+  .card:hover:not(.flipped) img {
+    transform: scale(1.5);
+    transition: 0.3s;
+  }
+  
+  .card .card-front, .card .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: transform 0.3s;
+  }
+  
+  .card .card-front {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .card .card-back {
+    background-color: #e1e1e1;
+    transform: rotateY(180deg);
+    padding-top: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .card .company-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .card .location, .card .time {
+    font-size: 0.875rem;
+    color: #666;
+  }
+
+  
+  .card .card-back ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  
+  .card .card-back li {
+    margin-bottom: 5px;
+  }
+  
+  .card .card-back {
+    max-height: 180px;
+    overflow-y: auto;
+    margin-bottom: 10px; /* Adjust for better spacing */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .card .card-back::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .card .card-back::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+  }
+  
+  .card.flipped .card-front {
+    transform: rotateY(180deg);
+  }
+  
+  .card.flipped .card-back {
+    transform: rotateY(0deg);
+  }

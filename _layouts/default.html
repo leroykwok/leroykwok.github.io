@@ -38,18 +38,6 @@
 
         <!-- <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark Mode">🌙</button> -->
 
-      </header>
-      <section>
-
-      {{ content }}
-
-      </section>
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <!-- <img src="assets/images/wolters.jpg" alt="Logo" /> -->
-
         <!-- Contact Section -->
         <div class="contact-container">
             <h3>Get in Touch</h3>
@@ -70,8 +58,24 @@
             </div>
         </div>
 
-        <!-- <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p> -->
-      </footer>
+        {% if site.github.is_project_page %}
+        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+
+      </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+      <!-- <footer>
+        {% if site.github.is_project_page %}
+        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <img src="assets/images/wolters.jpg" alt="Logo" />
+
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer> -->
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     <script>
