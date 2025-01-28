@@ -29,40 +29,78 @@ Hi, I'm Jason Zhang, an ambitious professional with a focus on Data Science, Eng
 
 ## <a id="work-experience"></a>💼 Featured Work Experience
 
-### **Data Scientist**  
-**U.S. DOT Volpe Center** | Cambridge, MA | **July 2024 – Present**  
-![U.S. DOT Logo](assets/images/usdot.jpg)  <!-- Replace with U.S. DOT logo -->
-- Engineered **ETL pipelines** using Apache Airflow and AWS Glue for processing **20,000+ records annually**, reducing data processing time by **60%**.  
-- Prototyped **LLM Retrieval-Augmented Generation (RAG) models** with Hugging Face Transformers, enhancing documentation retrieval efficiency by **30%**, saving **200+ hours annually**.  
-- Authored comprehensive memos on **NIST AI RMF**, promoting **AI risk management adoption** across teams.
+<div class="work-container">
+ <div class="work-card" onclick="toggleCard(this)">
+    <div class="card-front">
+      <img src="assets/images/usdot.jpg" alt="Company Logo" class="company-logo">
+      <h3>Data Scientist</h3>
+      <p>U.S. DOT Volpe Center</p>
+      <p class="location">Washington, D.C.</p>
+      <p class="time">June 2023 - Present</p>
+    </div>
+    <div class="card-back">
+    <ul>
+        <li>- Engineered <strong>ETL pipelines</strong> using Apache Airflow and AWS Glue for processing <strong>20,000+ records annually</strong>, reducing data processing time by <strong>60%</strong>.</li>
+        <li>- Prototyped <strong>LLM Retrieval-Augmented Generation (RAG) models</strong> with Hugging Face Transformers, enhancing documentation retrieval efficiency by <strong>30%</strong>, saving <strong>200+ hours annually</strong>.</li>
+        <li>- Authored comprehensive memos on <strong>NIST AI RMF</strong>, promoting <strong>AI risk management adoption</strong> across teams.</li>
+    </ul>
+    </div>
+  </div>
+  
+  <div class="work-card" onclick="toggleCard(this)">
+    <div class="card-front">
+      <img src="assets/images/wolters.jpg" alt="Company Logo" class="company-logo">
+      <h3>SWE Co-op</h3>
+      <p>Wolters Kluwer</p>
+      <p class="location">Boston, MA</p>
+      <p class="time">Jan 2022 - May 2023</p>
+    </div>
+    <div class="card-back">
+        <ul>
+            <li>- Developed a <strong>Spring Boot microservice</strong> leveraging Google Cloud Translation API to process <strong>100,000+ medical documents daily</strong>.</li>
+            <li>- Re-implemented backend image retrieval using <strong>Elasticsearch, S3, and JAX-RS</strong>, reducing load times by <strong>20%</strong>.</li>
+            <li>- Enhanced <strong>user data schema</strong> for improved password security and deployed updates to production.</li>
+            <li>- Streamlined infrastructure by retiring a legacy microservice with <strong>Docker</strong> and <strong>Jenkins</strong>, decreasing global server load.</li>
+        </ul>
+    </div>
+  </div>
 
----
+   <div class="work-card" onclick="toggleCard(this)">
+    <div class="card-front">
+      <img src="assets/images/nu.jpg" alt="Company Logo" class="company-logo">
+      <h3>Data Engineer</h3>
+      <p>NEU Khoury College</p>
+      <p class="location">Boston, MA</p>
+      <p class="time">June 2023 - Present</p>
+    </div>
+    <div class="card-back">
+    <ul>
+        <li>- Re-architected databases with <strong>Redis distributed clusters</strong>, improving computation framework speed by <strong>20%</strong>.</li>
+        <li>- Leveraged <strong>Redis Cloud</strong> for 99.99% uptime, ensuring scalability and durability.</li>
+        <li>- Refactored codebase with <strong>OOP principles</strong> and implemented automated testing for maintainability.</li>
+    </ul>
+    </div>
+  </div>
+  
+  <div class="work-card" onclick="toggleCard(this)">
+    <div class="card-front">
+      <img src="assets/images/morse.jpg" alt="Company Logo" class="company-logo">
+      <h3>Data Science Co-op</h3>
+      <p>MORSE Corp</p>
+      <p class="location">Cambridge, MA</p>
+      <p class="time">Jan 2022 - May 2023</p>
+    </div>
+    <div class="card-back">
+    <ul>
+        <li>- Implemented a <strong>time series bootstrap method</strong> in NumPy to estimate statistical uncertainty in temporal data.</li>
+        <li>- Optimized dataset splits, reducing preprocessing time by <strong>30%</strong>, and created a reusable <strong>EDA and synthetic data library</strong> used by 8 engineers.</li>
+        <li>- Maintained <strong>ETL pipelines</strong> with PySpark, reducing data lag by <strong>15%</strong> and automating documentation via Dockerized CI/CD pipelines.</li>
+    </ul>
+    </div>
+  </div>
+</div>
 
-### **Software Engineer Co-op**  
-**Wolters Kluwer** | Waltham, MA | **July 2023 – January 2024**  
-![Wolters Kluwer Logo](assets/images/wolters.jpg)  <!-- Replace with Wolters Kluwer logo -->
-- Developed a **Spring Boot microservice** leveraging Google Cloud Translation API to process **100,000+ medical documents daily**.  
-- Re-implemented backend image retrieval using **Elasticsearch, S3, and JAX-RS**, reducing load times by **20%**.  
-- Enhanced **user data schema** for improved password security and deployed updates to production.  
-- Streamlined infrastructure by retiring a legacy microservice with **Docker** and **Jenkins**, decreasing global server load.
-
----
-
-### **Data Engineering Researcher**  
-**Northeastern University Khoury College** | Boston, MA | **December 2022 – May 2023**
-![NU Logo](assets/images/nu.jpg)
-- Re-architected databases with **Redis distributed clusters**, improving computation framework speed by **20%**.  
-- Leveraged **Redis Cloud** for 99.99% uptime, ensuring scalability and durability.  
-- Refactored codebase with **OOP principles** and implemented automated testing for maintainability.
-
----
-
-### **Data Science Co-op**  
-**MORSE Corp** | Cambridge, MA | **July 2022 – January 2023**  
-![MORSE Corp Logo](assets/images/morse.jpg)
-- Implemented a **time series bootstrap method** in NumPy to estimate statistical uncertainty in temporal data.  
-- Optimized dataset splits, reducing preprocessing time by **30%**, and created a reusable **EDA and synthetic data library** used by 8 engineers.  
-- Maintained **ETL pipelines** with PySpark, reducing data lag by **15%** and automating documentation via Dockerized CI/CD pipelines.
+ 
 
 ---
 
@@ -89,6 +127,43 @@ Hi, I'm Jason Zhang, an ambitious professional with a focus on Data Science, Eng
 ---
 
 ## <a id="projects"></a>🚀 Projects
+
+<div class="work-container">
+ <div class="work-card" onclick="toggleCard(this)">
+    <div class="card-front">
+      <img src="assets/images/usdot.jpg" alt="Company Logo" class="company-logo">
+      <h3>Data Scientist</h3>
+      <p>U.S. DOT Volpe Center</p>
+      <p class="location">Washington, D.C.</p>
+      <p class="time">June 2023 - Present</p>
+    </div>
+    <div class="card-back">
+    <ul>
+        <li>- Engineered <strong>ETL pipelines</strong> using Apache Airflow and AWS Glue for processing <strong>20,000+ records annually</strong>, reducing data processing time by <strong>60%</strong>.</li>
+        <li>- Prototyped <strong>LLM Retrieval-Augmented Generation (RAG) models</strong> with Hugging Face Transformers, enhancing documentation retrieval efficiency by <strong>30%</strong>, saving <strong>200+ hours annually</strong>.</li>
+        <li>- Authored comprehensive memos on <strong>NIST AI RMF</strong>, promoting <strong>AI risk management adoption</strong> across teams.</li>
+    </ul>
+    </div>
+  </div>
+  
+  <div class="work-card" onclick="toggleCard(this)">
+    <div class="card-front">
+      <img src="assets/images/wolters.jpg" alt="Company Logo" class="company-logo">
+      <h3>SWE Co-op</h3>
+      <p>Wolters Kluwer</p>
+      <p class="location">Boston, MA</p>
+      <p class="time">Jan 2022 - May 2023</p>
+    </div>
+    <div class="card-back">
+        <ul>
+            <li>- Developed a <strong>Spring Boot microservice</strong> leveraging Google Cloud Translation API to process <strong>100,000+ medical documents daily</strong>.</li>
+            <li>- Re-implemented backend image retrieval using <strong>Elasticsearch, S3, and JAX-RS</strong>, reducing load times by <strong>20%</strong>.</li>
+            <li>- Enhanced <strong>user data schema</strong> for improved password security and deployed updates to production.</li>
+            <li>- Streamlined infrastructure by retiring a legacy microservice with <strong>Docker</strong> and <strong>Jenkins</strong>, decreasing global server load.</li>
+        </ul>
+    </div>
+  </div>
+</div>
 
 ### **1. AirflowIQ: Scalable Workflow Automation**  
 ![AirflowIQ Screenshot](assets/images/airflowiq_screenshot.jpg)  <!-- Replace with your project screenshot -->

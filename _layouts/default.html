@@ -30,9 +30,9 @@
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %} -->
 
-        <div class="cta-container">
+        <!-- <div class="cta-container">
             <a href="mailto:jasonjzhang17@gmail.com" class="cta-button">Hire Me</a>
-        </div>
+        </div> -->
 
         <img src="assets/images/profile.jpg" alt="Logo" />
 
@@ -91,6 +91,10 @@
         // Apply saved theme on load
         if (localStorage.getItem('theme') === 'dark') {
             document.documentElement.classList.add('dark');
+        }
+        // Toggle cards
+        function toggleCard(card) {
+        card.classList.toggle('flipped');
         }
     </script>
   </body>
