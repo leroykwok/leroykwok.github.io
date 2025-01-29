@@ -22,8 +22,11 @@ title: Jason Zhang | Data Science and Software Development Portfolio
 ## <a id="about"></a>👨‍💻 About Me
 
 <!-- ![Profile Picture](assets/images/profile.jpg) -->
+Hi, I'm Jason, an ambitious **Data Scientist and Software Developer** passionate about leveraging technology to solve complex business problems. 
 
-Hi, I'm Jason, an ambitious professional with a focus on Data Science, Engineering, and Software Development. I am passionate about solving complex problems with scalable data pipelines, optimized machine learning models, and robust software systems. With experience at U.S. DOT, Wolters Kluwer, and MORSE Corp, I am eager to contribute to impactful data-driven solutions and continue growing in my career.
+I have operationalized **LLM RAG** applications, built **scalable data pipelines**, and **deployed ML/software solutions** across my experiences at U.S. DOT, Wolters Kluwer, and MORSE Corp. My expertise spans **data science, data engineering, machine learning, and software development**. 
+
+I am eager to contribute to **high-impact, data-driven solutions** and continuously expand my expertise in AI, infrastructure, and software scalability.  
 
 ---
 
@@ -285,13 +288,7 @@ Hi, I'm Jason, an ambitious professional with a focus on Data Science, Engineeri
     </div>
     <div class="card-back">
     <ul>
-        <li><strong>GPA:</strong> 4.0</li>
-        <li><strong>Coursework:</strong></li>
-        <!-- <li><strong>Coursework:</strong> Bioinformatics Programming, Computational Methods in Bioinformatics, Algorithms, Statistics for Bioinformatics.</li> -->
-        <li>Bioinformatics Programming</li>
-        <li>Computational Methods in Bioinformatics</li>
-        <li>Algorithms</li>
-        <li>Statistics for Bioinformatics</li>
+        <li>...</li>
     </ul>
     </div>
   </div>
@@ -306,14 +303,7 @@ Hi, I'm Jason, an ambitious professional with a focus on Data Science, Engineeri
     </div>
     <div class="card-back">
     <ul>
-        <li><strong>GPA:</strong> 4.0</li>
-        <li><strong>Coursework:</strong></li>
-        <li>Machine Learning</li>
-        <li>Large-Scale Data Storage</li>
-        <li>Data Science Foundations</li>
-        <li>Object-Oriented Design</li>
-        <li>Stochastic Probability</li>
-        <li>Linear Algebra</li>
+        <li>...</li>
     </ul>
     </div>
   </div>
