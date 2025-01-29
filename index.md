@@ -266,3 +266,54 @@ Hi, I'm Jason, an ambitious professional with a focus on Data Science, Engineeri
     </div>
   </div> -->
 </div>
+
+&nbsp;
+
+---
+
+## <a id="open-source"></a>🔓 Open Source
+
+<div class="card-container">
+ <div class="card" onclick="toggleCard(this)">
+    <div class="card-front">
+      <img src="assets/images/coming.png" alt="Company Logo" class="company-logo">
+      <h3>In Progress</h3>
+      <p>...</p>
+      <!-- <p class="location">Boston, MA</p>
+      <p class="time">Sep 2024 - May 2026</p> -->
+    </div>
+    <div class="card-back">
+    <ul>
+        <li><strong>GPA:</strong> 4.0</li>
+        <li><strong>Coursework:</strong></li>
+        <!-- <li><strong>Coursework:</strong> Bioinformatics Programming, Computational Methods in Bioinformatics, Algorithms, Statistics for Bioinformatics.</li> -->
+        <li>Bioinformatics Programming</li>
+        <li>Computational Methods in Bioinformatics</li>
+        <li>Algorithms</li>
+        <li>Statistics for Bioinformatics</li>
+    </ul>
+    </div>
+  </div>
+  
+  <div class="card" onclick="toggleCard(this)">
+    <div class="card-front">
+      <img src="assets/images/coming.png" alt="Company Logo" class="company-logo">
+      <h3>In Progress</h3>
+      <p>...</p>
+      <!-- <p class="location">Boston, MA</p>
+      <p class="time">Sep 2020 - May 2024</p> -->
+    </div>
+    <div class="card-back">
+    <ul>
+        <li><strong>GPA:</strong> 4.0</li>
+        <li><strong>Coursework:</strong></li>
+        <li>Machine Learning</li>
+        <li>Large-Scale Data Storage</li>
+        <li>Data Science Foundations</li>
+        <li>Object-Oriented Design</li>
+        <li>Stochastic Probability</li>
+        <li>Linear Algebra</li>
+    </ul>
+    </div>
+  </div>
+</div>
