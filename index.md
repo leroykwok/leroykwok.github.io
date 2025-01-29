@@ -14,6 +14,7 @@ title: Jason Zhang | Data Science and Software Development Portfolio
         <li><a href="#education">Education</a></li>
         <li><a href="#technical-skills">Technical Skills</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#open-source">Open Source</a></li>
         <!-- <li><a href="#blog">Blog</a></li> -->
     </ul>
 </div>
