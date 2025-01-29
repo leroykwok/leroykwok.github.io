@@ -160,9 +160,10 @@ I am eager to contribute to **high-impact, data-driven solutions** and continuou
 
 ## <a id="technical-skills"></a>👩‍💻 Technical Skills
 
-- **Languages**: Python, PyTorch, TensorFlow, Scikit-learn, Pandas, Flask, SQL, Java, R, Bash, TypeScript  
-- **Data Engineering**: Apache Airflow, Docker, Spark, AWS, GCP, MongoDB, Redis, Neo4j  
-- **Tools & Frameworks**: Tableau, ELK Stack, Jenkins, JAX-RS, Spring Boot  
+- **Languages**: Python, SQL, Java, R, Bash, TypeScript, Scala
+- **Data Science**: Pandas, NumPy, PyTorch, TensorFlow, NLTK, spaCy, Scikit-learn, XGBoost
+- **Data Engineering**: Apache Airflow, Docker, Spark, Kubernetes, MongoDB, Redis, Neo4j  
+- **Tools & Frameworks**: AWS, GCP, Tableau, ELK Stack, Jenkins, JAX-RS, Spring Boot, Tomcat
 
 ---
 
