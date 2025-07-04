@@ -31,6 +31,7 @@ I am excited to bring forth my analytical mindset, collaborative spirit, and pro
 
 ## <a id="work-experience"></a>💼 Featured Work Experience
 
+<div class="card-container">
    <div class="card" onclick="toggleCard(this)">
     <div class="card-front">
       <img src="assets/images/depop.png" alt="Company Logo" class="company-logo">
