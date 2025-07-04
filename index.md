@@ -61,7 +61,6 @@ I am excited to bring forth my analytical mindset, collaborative spirit, and pro
     </ul>
     </div>
   </div>
-</div>
 
   <div class="card" onclick="toggleCard(this)">
     <div class="card-front">
@@ -77,7 +76,6 @@ I am excited to bring forth my analytical mindset, collaborative spirit, and pro
     </ul>
     </div>
   </div>
-</div>
   
   <div class="card" onclick="toggleCard(this)">
     <div class="card-front">
@@ -93,7 +91,6 @@ I am excited to bring forth my analytical mindset, collaborative spirit, and pro
     </ul>
     </div>
   </div>
-</div>
 
   <div class="card" onclick="toggleCard(this)">
     <div class="card-front">
