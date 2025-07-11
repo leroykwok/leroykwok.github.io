@@ -42,9 +42,9 @@ I am excited to bring forth my analytical mindset, collaborative spirit, and pro
     </div>
     <div class="card-back">
     <ul>
-        <li>Processed over 3,200 sales, generating $20K+ in revenue while maintaining a strong profit margin through strategic sourcing and cost control.</li>
+        <li>Processed over <strong>3,200 sales</strong>, generating <strong>$20K+</strong> in revenue while maintaining a strong profit margin through strategic sourcing and cost control.</li>
         <li>Developed and maintained accurate inventory and pricing data, ensuring smooth operations and timely order fulfillment.</li>
-        <li>Conducted market and competitor analysis to optimize product selection and pricing strategy, improving sales velocity and customer retention.</li>
+        <li>Conducted <strong>market and competitor analysis</strong> to optimize product selection and pricing strategy, improving sales velocity and customer retention.</li>
     </ul>
     </div>
   </div>
@@ -61,7 +61,7 @@ I am excited to bring forth my analytical mindset, collaborative spirit, and pro
     <ul>
         <li>Assisted students with inquiries about class locations, meetings, and events, providing clear directions and support.</li>
         <li>Managed calls on student, parent, and staff concerns, resolving issues with professionalism and confidentiality.</li>
-        <li>Organized student documentation, promoting efficient data management and effective office operations.</li>
+        <li>Organized student documentation, promoting efficient <strong>data management</strong> and effective office operations.</li>
     </ul>
     </div>
   </div>
@@ -76,7 +76,8 @@ I am excited to bring forth my analytical mindset, collaborative spirit, and pro
     </div>
     <div class="card-back">
     <ul>
-        <li>In progress.</li>
+        <li>Responsible for organizing the game room area upon opening and closing of each shift to ensure a safe and clean space for students.</li>
+        <li>Maintain an accurate inventory of gaming equipment and report any missing or damaged items for closing or next shift.</li>
     </ul>
     </div>
   </div>
@@ -91,7 +92,9 @@ I am excited to bring forth my analytical mindset, collaborative spirit, and pro
     </div>
     <div class="card-back">
     <ul>
-        <li>In progress.</li>
+        <li>Supported daily operations and customer engagement at high volume.</li>
+        <li>Led the effort to reorganize donation processing to improve workflow speed and team productivity.</li>
+        <li>Maintained a clean and organized store environment, ensuring a positive shopping experience for customers.</li>
     </ul>
     </div>
   </div>
@@ -106,7 +109,9 @@ I am excited to bring forth my analytical mindset, collaborative spirit, and pro
     </div>
     <div class="card-back">
     <ul>
-        <li>In progress.</li>
+        <li>Ensured a clean and safe working environment through effective use of tools and machinery.</li>
+        <li>Supported cross-functional coordination between lab and logistics teams.</li>
+        <li>Improved inventory workflows and ensured compliance during audits.</li>
     </ul>
     </div>
   </div>
