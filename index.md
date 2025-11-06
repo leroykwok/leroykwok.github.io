@@ -134,10 +134,10 @@ I am excited to bring forth my analytical mindset, collaborative spirit, and pro
     </div>
     <div class="card-back">
     <ul>
-        <li><strong>GPA:</strong> 4.0</li>
+        <li><strong>GPA:</strong> 3.8</li>
         <li><strong>Coursework:</strong></li>
         <!-- <li><strong>Coursework:</strong> Bioinformatics Programming, Computational Methods in Bioinformatics, Algorithms, Statistics for Bioinformatics.</li> -->
-        <li>In progress.</li>
+        <li>Accounting, Global Finance Trade, Financial Risk Management, Financial Technology, Business Analytics, Industrial Economics</li>
     </ul>
     </div>
   </div>
@@ -152,9 +152,9 @@ I am excited to bring forth my analytical mindset, collaborative spirit, and pro
     </div>
     <div class="card-back">
     <ul>
-        <li><strong>GPA:</strong> 4.0</li>
+        <li><strong>GPA:</strong> 3.4</li>
         <li><strong>Coursework:</strong></li>
-        <li>In progress.</li>
+        <li>Accounting, Financial Derivatives, Financial Analysis, Risk Analysis, Economics, Real Estate</li>
     </ul>
     </div>
   </div>
@@ -173,7 +173,7 @@ I am excited to bring forth my analytical mindset, collaborative spirit, and pro
 
 ## <a id="projects"></a>🚀 Projects
 
-<div class="card-container">
+<!-- <div class="card-container">
  <div class="card" onclick="toggleCard(this)">
     <div class="card-front">
       <img src="assets/images/scheduler.png" alt="Company Logo" class="company-logo">
@@ -189,21 +189,37 @@ I am excited to bring forth my analytical mindset, collaborative spirit, and pro
         <li>Ensured <strong>robust error handling</strong> and logging mechanisms for reliable task execution.</li>
     </ul>
     </div>
+  </div> -->
+
+  <div class="card-container">
+ <div class="card" onclick="toggleCard(this)">
+    <div class="card-front">
+      <img src="assets/images/scheduler.png" alt="Company Logo" class="company-logo">
+      <h3>Strategy & Market Analysis</h3>
+      <p>Amazon Forecasting Project</p>
+      <p class="location">Skills: Market Analysis, Excel</p>
+    </div>
+    <div class="card-back">
+    <ul>
+        <li>Conducted market and revenue performance analysis of Amazon using regression and logistic regression in Excel.</li>
+        <li>Assessed external macroeconomic factors and seasonal trends affecting Amazon’s financial projections.</li>
+        <li>Developed a detailed report identifying key factors influencing Amazon’s current revenue forecasts.</li>
+    </ul>
+    </div>
   </div>
 
    <div class="card" onclick="toggleCard(this)">
     <div class="card-front">
       <img src="assets/images/airflow.png" alt="Company Logo" class="company-logo">
-      <h3><a href="https://github.com/jjz17/AirflowIQ" target="_blank">AirflowIQ</a></h3>
-      <p>Scalable Workflow Automation</p>
-      <p class="location">Skills: Airflow, Docker, SQL</p>
+      <h3>Equity Research & Valuation</h3>
+      <p>Healthcare SMIF Portfolio</p>
+      <p class="location">Skills: Bloomberg, DiligentIQ, Excel</p>
     </div>
     <div class="card-back">
     <ul>
-        <li>Created a <strong>monitoring tool for Apache Airflow</strong> to track DAG performance and failures.</li>
-        <li>Integrated with the <strong>ELK Stack (Elasticsearch, Logstash, Kibana)</strong> for real-time log analysis.</li>
-        <li>Developed an <strong>automated alerting system</strong> to notify users of pipeline issues.</li>
-        <li>Deployed on <strong>AWS EC2 and S3</strong> for scalable and resilient workflow tracking.</li>
+        <li>Built 5-year financial models (DCF, income statement, balance sheet) in Excel.</li>
+        <li>Analyzed public healthcare firms for portfolio inclusion, combining DCF models with Bloomberg-based peer comps.</li>
+        <li>Developed investment strategy proposals and presented recommendations for portfolio inclusion.</li>
     </ul>
     </div>
   </div>
