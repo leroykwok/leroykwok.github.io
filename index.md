@@ -137,7 +137,12 @@ I am excited to bring forth my analytical mindset, collaborative spirit, and pro
         <li><strong>GPA:</strong> 3.8</li>
         <li><strong>Coursework:</strong></li>
         <!-- <li><strong>Coursework:</strong> Bioinformatics Programming, Computational Methods in Bioinformatics, Algorithms, Statistics for Bioinformatics.</li> -->
-        <li>Accounting, Global Finance Trade, Financial Risk Management, Financial Technology, Business Analytics, Industrial Economics</li>
+        <li>Accounting</li>
+        <li>Global Finance Trade</li>
+        <li>Financial Risk Management</li>
+        <li>Financial Technology</li>
+        <li>Business Analytics</li>
+        <li>Industrial Economics</li>
     </ul>
     </div>
   </div>
@@ -154,7 +159,12 @@ I am excited to bring forth my analytical mindset, collaborative spirit, and pro
     <ul>
         <li><strong>GPA:</strong> 3.4</li>
         <li><strong>Coursework:</strong></li>
-        <li>Accounting, Financial Derivatives, Financial Analysis, Risk Analysis, Economics, Real Estate</li>
+        <li>Accounting</li>
+        <li>Financial Derivatives</li>
+        <li>Financial Analysis</li>
+        <li>Risk Analysis</li>
+        <li>Economics</li>
+        <li>Real Estate</li>
     </ul>
     </div>
   </div>
@@ -226,5 +236,3 @@ I am excited to bring forth my analytical mindset, collaborative spirit, and pro
 </div>
 
 &nbsp;
-
----
